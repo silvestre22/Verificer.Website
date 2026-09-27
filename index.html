@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Verificer | Forward Deployed AI Engineering & Carbon Reporting</title>
+<meta name="description" content="Verificer embeds engineers with your team to build custom AI agents and MCP servers on private, on-premise LLMs, and prepares AI-assisted carbon reports under Verra VCS and ISO 14064." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Verificer | Forward Deployed AI Engineering & Carbon Reporting" />
+<meta property="og:description" content="Verificer embeds engineers with your team to build custom AI agents and MCP servers on private, on-premise LLMs, and prepares AI-assisted carbon reports under Verra VCS and ISO 14064." />
+<meta property="og:url" content="https://verificer.com/" />
+<meta property="og:image" content="https://verificer.com/assets/img/logo-black.png" />
+<meta name="theme-color" content="#121820" />
+<link rel="icon" type="image/png" href="assets/img/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="page-home">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="./" class="brand" aria-label="Verificer home">
+            <img class="brand-logo brand-logo--light" src="assets/img/logo-white.png" alt="Verificer" width="1200" height="420" />
+            <img class="brand-logo brand-logo--dark" src="assets/img/logo-black.png" alt="" aria-hidden="true" width="1200" height="420" />
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Main">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#on-premise">On-Premise AI</a></li>
+                <li><a href="#governance">Governance</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#carbon">Carbon</a></li>
+                                <li><a href="#about">About</a></li>
+                <li class="nav-cta"><a href="#contact" class="btn btn-amber btn-sm">Book a discovery call</a></li>
+            </ul>
+        </nav>
+
+        <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="container hero-inner">
+        <div class="hero-copy">
+            <p class="eyebrow eyebrow--light">Forward deployed AI engineering</p>
+            <h1>Private AI, built inside <span class="hl">your walls.</span></h1>
+            <p class="hero-lead">Our engineers work alongside your team to build custom AI agents and MCP servers, then run them on large language models hosted in your own data centre. Your data never leaves your network, and every action the AI takes is on the record.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-amber">Book a discovery call</a>
+                <a href="#on-premise" class="btn btn-outline-light">See how we deploy</a>
+            </div>
+        </div>
+
+        <figure class="manifest" aria-label="Example deployment summary for a manufacturing customer">
+            <figcaption class="manifest-bar">
+                <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span>deployment.yaml</span>
+                <span class="manifest-status">running</span>
+            </figcaption>
+            <dl class="manifest-body">
+                <div><dt>customer</dt><dd>precision-parts-plant</dd></div>
+                <div><dt>location</dt><dd>on-premise · Selangor DC</dd></div>
+                <div><dt>model</dt><dd>open-weight LLM · 70B · 4-bit</dd></div>
+                <div><dt>hardware</dt><dd>2 × GPU server, your rack</dd></div>
+                <div><dt>agents</dt><dd>qc-inspector, maintenance-planner</dd></div>
+                <div><dt>mcp_servers</dt><dd>sap-erp, mes, doc-vault</dd></div>
+                <div><dt>outbound_internet</dt><dd class="ok">blocked</dd></div>
+                <div><dt>audit_log</dt><dd class="ok">every prompt &amp; tool call</dd></div>
+                <div><dt>human_approval</dt><dd class="ok">required for writes</dd></div>
+            </dl>
+        </figure>
+    </div>
+
+    <div class="container">
+        <ul class="hero-facts">
+            <li><strong>Air-gap ready</strong><span>Runs with no internet connection</span></li>
+            <li><strong>Your hardware</strong><span>Or a private cloud you control</span></li>
+            <li><strong>Full audit trail</strong><span>Every prompt, answer and action</span></li>
+            <li><strong>On site in MY &amp; HK</strong><span>Engineers in Kuala Lumpur and Hong Kong</span></li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section problem" id="why">
+    <div class="container problem-inner">
+        <div class="problem-head reveal">
+            <p class="eyebrow">Why AI projects stall</p>
+            <h2>Most enterprise AI never gets past the pilot.</h2>
+            <p class="lead">The model is rarely the problem. The hard part is everything around it: your data rules, your systems and the people who have to trust the output. That is the work we do.</p>
+        </div>
+        <ol class="problem-list">
+            <li class="reveal">
+                <h3>Your data can't go to a public AI service</h3>
+                <p>Customer records, drawings, pricing and banking data are bound by secrecy rules, PDPA and client contracts. Sending them to a third-party API is not an option.</p>
+            </li>
+            <li class="reveal">
+                <h3>Generic chatbots don't know your systems</h3>
+                <p>Useful AI has to read from your ERP, MES, core banking and document stores, and act inside them safely. Off-the-shelf tools stop at the chat window.</p>
+            </li>
+            <li class="reveal">
+                <h3>Nobody can answer to the auditor</h3>
+                <p>Who used the AI, what it saw, what it did and who approved it. Without those answers, risk and compliance teams will say no, and they should.</p>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services" id="services">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">What we do</p>
+            <h2>One team from first workshop to production.</h2>
+            <p class="lead">We design, build, deploy and support the whole stack, so you are not left stitching together a model vendor, an integrator and a consultant.</p>
+        </div>
+
+        <div class="service-grid">
+            <article class="service service--lead reveal">
+                <p class="service-tag">FDE</p>
+                <h3>Forward deployed engineers</h3>
+                <p>Senior engineers embed with your operations, on site or remote, to learn how the work is really done. They turn that into working software in weeks, not a requirements document in months, and stay until your team is using it.</p>
+                <ul class="ticks">
+                    <li>Workflow discovery on the shop floor or back office</li>
+                    <li>Working prototypes on your real data</li>
+                    <li>Rollout, training and adoption support</li>
+                </ul>
+            </article>
+
+            <article class="service reveal">
+                <p class="service-tag">Agents</p>
+                <h3>Custom AI agents</h3>
+                <p>Agents that do a defined job: review a loan file, draft a QC report, plan maintenance, answer policy questions with sources. Each one has clear permissions and hands off to a person when it should.</p>
+            </article>
+
+            <article class="service reveal">
+                <p class="service-tag">MCP</p>
+                <h3>MCP server development</h3>
+                <p>We build Model Context Protocol servers that give AI controlled, logged access to your systems, such as SAP, MES, SQL databases, SharePoint and internal APIs. Read-only by default, with write access only where you approve it.</p>
+            </article>
+
+            <article class="service reveal">
+                <p class="service-tag">LLM</p>
+                <h3>On-premise LLM deployment</h3>
+                <p>We size the hardware, choose and tune open-weight models, and install the inference stack in your data centre or private cloud. Then we hand it over to your IT team with runbooks, monitoring and support.</p>
+            </article>
+
+            <article class="service reveal">
+                <p class="service-tag">Governance</p>
+                <h3>AI governance &amp; security</h3>
+                <p>Access control, audit trails, evaluation and approval steps built into the system from the start, and documentation your risk, compliance and audit teams can sign off.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ON-PREMISE ARCHITECTURE -->
+<section class="section onprem" id="on-premise">
+    <div class="container onprem-inner">
+        <div class="onprem-copy reveal">
+            <p class="eyebrow eyebrow--light">On-premise AI</p>
+            <h2>Your AI stack, inside your perimeter.</h2>
+            <p>Everything runs on infrastructure you own or control. Models, prompts, documents, embeddings and logs stay on your network. If your policy requires it, the whole system runs fully air-gapped.</p>
+            <ul class="onprem-points">
+                <li><strong>Model choice.</strong> Open-weight models such as Llama, Qwen, Mistral and DeepSeek, chosen and tested for your language, documents and tasks.</li>
+                <li><strong>Hardware sizing.</strong> From a single GPU workstation for a department to a multi-node cluster, sized to your users and response-time targets.</li>
+                <li><strong>Private knowledge.</strong> Retrieval over your own documents with access rules carried through, so people only see answers from files they may open.</li>
+                <li><strong>Operated by you.</strong> We hand over with runbooks and training. Ongoing support and model updates are available if you want them.</li>
+            </ul>
+        </div>
+
+        <figure class="stack reveal" aria-label="Diagram of an on-premise AI deployment">
+            <div class="perimeter">
+                <p class="perimeter-label">Your network</p>
+                <div class="layer">
+                    <p class="layer-name">People &amp; apps</p>
+                    <div class="chips"><span>Web portal</span><span>Teams / chat</span><span>Mobile</span></div>
+                </div>
+                <div class="layer layer--accent">
+                    <p class="layer-name">AI agents</p>
+                    <div class="chips"><span>Policies &amp; approvals</span><span>Audit log</span><span>SSO / LDAP</span></div>
+                </div>
+                <div class="layer-split">
+                    <div class="layer">
+                        <p class="layer-name">MCP servers</p>
+                        <div class="chips"><span>ERP</span><span>MES</span><span>Core banking</span><span>Documents</span></div>
+                    </div>
+                    <div class="layer">
+                        <p class="layer-name">Private LLM</p>
+                        <div class="chips"><span>Inference server</span><span>Vector index</span><span>Your GPUs</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="outside">
+                <span class="outside-box">Public AI APIs</span>
+                <span class="outside-note">No outbound traffic</span>
+            </div>
+        </figure>
+    </div>
+</section>
+
+<!-- GOVERNANCE -->
+<section class="section governance" id="governance">
+    <div class="container">
+        <div class="section-head section-head--split reveal">
+            <div>
+                <p class="eyebrow">AI governance</p>
+                <h2>Controls your risk team will sign off.</h2>
+            </div>
+            <p class="lead">Governance is part of the design, not a policy document written after launch. Every system we deliver includes these controls.</p>
+        </div>
+
+        <div class="controls">
+            <div class="control reveal">
+                <h3>Identity &amp; access</h3>
+                <p>Single sign-on with your directory. Agents inherit each user's permissions, so AI never becomes a way around your access rules.</p>
+            </div>
+            <div class="control reveal">
+                <h3>Complete audit trail</h3>
+                <p>Every prompt, retrieved document, tool call and response is logged with the user and time, and stored on your servers.</p>
+            </div>
+            <div class="control reveal">
+                <h3>Human approval</h3>
+                <p>Actions that change records, send messages or move money wait for a named person to approve them.</p>
+            </div>
+            <div class="control reveal">
+                <h3>Data residency</h3>
+                <p>Data stays in the country and the building you choose. Nothing is used to train anyone else's model.</p>
+            </div>
+            <div class="control reveal">
+                <h3>Evaluation &amp; testing</h3>
+                <p>Accuracy tests on your own cases before go-live, plus checks for prompt injection and data leakage, repeated when models change.</p>
+            </div>
+            <div class="control reveal">
+                <h3>Regulatory alignment</h3>
+                <p>Documentation mapped to the rules you work under, such as PDPA, BNM RMiT, Hong Kong PDPO and ISO/IEC 27001.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="section industries" id="industries">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Industries</p>
+            <h2>Built for organisations that can't take risks with their data.</h2>
+        </div>
+
+        <div class="industry-feature">
+            <article class="industry industry--big reveal">
+                <p class="industry-kicker">Manufacturing</p>
+                <h3>AI on the factory floor</h3>
+                <p>Keep drawings, recipes and production data inside the plant while giving engineers and operators an assistant that knows your equipment.</p>
+                <ul class="ticks">
+                    <li>SOP and machine-manual assistant for operators</li>
+                    <li>QC and defect reports drafted from MES data</li>
+                    <li>Maintenance planning from work-order history</li>
+                    <li>Supplier document and certificate checks</li>
+                </ul>
+            </article>
+            <article class="industry industry--big reveal">
+                <p class="industry-kicker">Banking &amp; financial services</p>
+                <h3>AI that passes a bank's risk review</h3>
+                <p>Customer information stays within your environment, and every AI-assisted decision is traceable for internal audit and regulators.</p>
+                <ul class="ticks">
+                    <li>KYC and onboarding document review</li>
+                    <li>Credit memo and loan file drafting</li>
+                    <li>Policy and circular Q&amp;A with cited sources</li>
+                    <li>Complaint and case summarisation</li>
+                </ul>
+            </article>
+        </div>
+
+        <div class="industry-row">
+            <article class="industry reveal">
+                <p class="industry-kicker">Healthcare</p>
+                <p>Clinical and patient records assistants that keep health data on hospital servers.</p>
+            </article>
+            <article class="industry reveal">
+                <p class="industry-kicker">Government &amp; GLCs</p>
+                <p>Sovereign AI for agencies and government-linked companies, with data kept in-country.</p>
+            </article>
+            <article class="industry reveal">
+                <p class="industry-kicker">Logistics</p>
+                <p>Agents that read shipping documents, check delivery orders and answer fleet questions.</p>
+            </article>
+            <article class="industry reveal">
+                <p class="industry-kicker">Energy &amp; utilities</p>
+                <p>Field inspection reports, asset records and compliance checks for critical infrastructure.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ENGAGEMENT -->
+<section class="section engagement" id="engagement">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">How we work</p>
+            <h2>From first conversation to a system your team runs.</h2>
+            <p class="lead">A typical engagement moves through four stages. We agree scope and success measures at each one, so you can stop or change course between them.</p>
+        </div>
+
+        <ol class="steps">
+            <li class="step reveal">
+                <span class="step-num">1</span>
+                <p class="step-time">Typically 2 weeks</p>
+                <h3>Discover</h3>
+                <p>Our engineers sit with the people doing the work, map the process and data, and pick the one or two use cases with the clearest return.</p>
+            </li>
+            <li class="step reveal">
+                <span class="step-num">2</span>
+                <p class="step-time">Typically 4 to 6 weeks</p>
+                <h3>Prototype</h3>
+                <p>We build a working agent on your real data, in a secure environment, and measure it against the success criteria we agreed.</p>
+            </li>
+            <li class="step reveal">
+                <span class="step-num">3</span>
+                <p class="step-time">Typically 4 to 8 weeks</p>
+                <h3>Deploy</h3>
+                <p>We install the model and agents on your infrastructure, connect them through MCP servers, harden security and train your users.</p>
+            </li>
+            <li class="step reveal">
+                <span class="step-num">4</span>
+                <p class="step-time">Ongoing</p>
+                <h3>Operate &amp; extend</h3>
+                <p>Your team runs it with our runbooks. We stay available for support, model updates and the next use case.</p>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- EMAS -->
+<section class="section emas" id="emas">
+    <div class="container emas-inner reveal">
+        <div>
+            <p class="eyebrow">Our head start</p>
+            <h2>We don't start from a blank page.</h2>
+        </div>
+        <div>
+            <p>Every business runs on the same building blocks: people, processes, documents and decisions. <strong>EMAS</strong>, our Enterprise Management Agent System, is a library of agents and MCP connectors for those common operations, tested across our client projects.</p>
+            <p>Our engineers start your project from EMAS and adapt it to how you work. You get to a working prototype faster, on a foundation that has already been through production.</p>
+            <a class="link-arrow" href="https://demo-emas.verificer.com" target="_blank" rel="noopener">Try the EMAS demo</a>
+        </div>
+    </div>
+</section>
+
+<!-- CARBON -->
+<section class="section carbon" id="carbon">
+    <div class="container">
+        <div class="carbon-top">
+            <div class="carbon-copy reveal">
+                <p class="eyebrow eyebrow--leaf">Carbon reporting with AI</p>
+                <h2>Verification is in our name.</h2>
+                <p class="carbon-lead">A carbon credit is only worth what can be proven about it. Verificer uses the same engineering we bring to banks and factories to measure, report and evidence carbon, so every tonne claimed can be traced back to its source data.</p>
+                <p>We prepare greenhouse gas reports and carbon project documentation that follow the <strong>Verra Verified Carbon Standard (VCS)</strong> and <strong>ISO 14064</strong>, ready for review by an independent validation and verification body.</p>
+            </div>
+
+            <figure class="ledger reveal" aria-label="Summary of Verificer's forest carbon project">
+                <figcaption class="ledger-bar">
+                    <span>forest-project.yaml</span>
+                    <span class="ledger-status">in development</span>
+                </figcaption>
+                <dl class="ledger-body">
+                    <div><dt>project</dt><dd>forest reserve conservation</dd></div>
+                    <div><dt>standard</dt><dd>Verra VCS</dd></div>
+                    <div><dt>quantification</dt><dd>ISO 14064-2</dd></div>
+                    <div><dt>monitoring</dt><dd>satellite imagery + field plots</dd></div>
+                    <div><dt>evidence</dt><dd>every figure linked to its source</dd></div>
+                    <div><dt>output</dt><dd>Verified Carbon Units (VCUs)</dd></div>
+                </dl>
+            </figure>
+        </div>
+
+        <div class="carbon-flagship reveal">
+            <p class="carbon-kicker">Our flagship project</p>
+            <h3>Keeping a forest reserve standing, and proving it.</h3>
+            <p>We are developing a carbon project on a forest reserve, where protecting the trees generates carbon credits. AI does the heavy lifting: it compares satellite images over time to watch the canopy, flags possible clearing early, and turns field measurements into biomass and carbon estimates. Our engineers then assemble the evidence into a Verra project document that an auditor can check line by line.</p>
+        </div>
+
+        <ol class="mrv">
+            <li class="reveal">
+                <span class="mrv-letter">M</span>
+                <h3>Measure</h3>
+                <p>Satellite and drone imagery, field plot data, fuel and electricity records. AI reads invoices, meter data and utility bills so nobody has to retype them.</p>
+            </li>
+            <li class="reveal">
+                <span class="mrv-letter">R</span>
+                <h3>Report</h3>
+                <p>Calculations follow the chosen Verra methodology or ISO 14064-1 for organisational Scope 1, 2 and 3 inventories, with every emission factor and assumption recorded.</p>
+            </li>
+            <li class="reveal">
+                <span class="mrv-letter">V</span>
+                <h3>Verify</h3>
+                <p>An audit-ready data room for the verification body under ISO 14064-3. Every number in the report opens to the document or dataset behind it.</p>
+            </li>
+        </ol>
+
+        <div class="carbon-services reveal">
+            <div>
+                <h3>Corporate carbon reporting</h3>
+                <p>ISO 14064-1 greenhouse gas inventories for manufacturers and listed companies preparing sustainability disclosures and supply chain reports.</p>
+            </div>
+            <div>
+                <h3>Carbon credit projects</h3>
+                <p>Nature-based project development under Verra VCS, from feasibility and baseline to monitoring reports for each verification period.</p>
+            </div>
+            <div>
+                <h3>Carbon data IP</h3>
+                <p>Our team holds a patent application in China (No. 202411239529.9) for AI processing of carbon reduction data from electric transport.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CLIENTS & PARTNERS -->
+<section class="section clients" id="clients">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Clients &amp; partners</p>
+            <h2>Trusted by businesses across Malaysia and Hong Kong.</h2>
+        </div>
+        <ul class="logo-wall">
+            <li><img src="assets/img/clients/calerie.png" alt="Calerie" loading="lazy" /></li>
+            <li><img src="assets/img/clients/cibc.png" alt="CIBC" loading="lazy" /></li>
+            <li><img src="assets/img/clients/ck_corporate.png" alt="CK Corporate" loading="lazy" /></li>
+            <li><img src="assets/img/clients/durian_boat.png" alt="Durian Boat" loading="lazy" /></li>
+            <li><img src="assets/img/clients/elenergy.png" alt="ELEnergy" loading="lazy" /></li>
+            <li><img src="assets/img/clients/genesis_academy.png" alt="Genesis Academy" loading="lazy" /></li>
+            <li><img src="assets/img/clients/homebloc.jpg" alt="Homebloc" loading="lazy" /></li>
+            <li><img src="assets/img/clients/juniverse.png" alt="Juniverse" loading="lazy" /></li>
+            <li><img src="assets/img/clients/lifecare.png" alt="Lifecare" loading="lazy" /></li>
+            <li><img src="assets/img/clients/liora.png" alt="Liora" loading="lazy" /></li>
+            <li><img src="assets/img/clients/moden.png" alt="Moden" loading="lazy" /></li>
+            <li><img src="assets/img/clients/quantum_metal.png" alt="Quantum Metal" loading="lazy" /></li>
+            <li><img src="assets/img/clients/viinutrition.jpg" alt="VII Nutrition" loading="lazy" /></li>
+        </ul>
+        <div class="partners reveal">
+            <p>Cloud partners for customers who choose a private cloud instead of their own data centre</p>
+            <div class="partner-logos">
+                <img src="assets/img/huaweicloud.png" alt="Huawei Cloud" loading="lazy" />
+                <img src="assets/img/alibabacloud.png" alt="Alibaba Cloud" loading="lazy" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+    <div class="container about-inner">
+        <div class="about-photo reveal">
+            <img src="assets/img/office.png" alt="The Verificer team at the office" loading="lazy" />
+        </div>
+        <div class="about-copy reveal">
+            <p class="eyebrow">About Verificer</p>
+            <h2>Engineers first, since 2019.</h2>
+            <p>Verificer started in 2019 as a software company in Kuala Lumpur and opened in Hong Kong in 2021. Our team of around 20 engineers has built production systems for manufacturers, energy companies, healthcare providers and financial firms.</p>
+            <p>Today we run two practices built on that engineering: forward deployed AI for regulated enterprises, and AI-assisted carbon reporting for companies and nature projects. Both come down to the same thing, data you can trust and prove.</p>
+            <p>That background is why we work the way we do. We know that an AI project only succeeds when it is connected to real systems, trusted by the people who use it and accepted by the people who audit it.</p>
+            <dl class="about-facts">
+                <div><dt>2019</dt><dd>Founded in Kuala Lumpur</dd></div>
+                <div><dt>2021</dt><dd>Hong Kong office opened</dd></div>
+                <div><dt>~20</dt><dd>Engineers on the team</dd></div>
+            </dl>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+    <div class="container contact-inner">
+        <div class="contact-copy reveal">
+            <p class="eyebrow eyebrow--light">Talk to an engineer</p>
+            <h2>Tell us what you want AI to do, and what it must never do.</h2>
+            <p>Book a one-hour discovery call. You'll speak with an engineer, not a salesperson, and leave with a view on feasibility, hardware and the first use case worth building.</p>
+            <div class="hero-actions">
+                <a class="btn btn-amber" href="mailto:sylvester@verificer.com?subject=Discovery%20call">Email us to book</a>
+                <a class="btn btn-outline-light" href="https://wa.me/60122828652" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="offices reveal">
+            <div class="office">
+                <p class="office-city">Kuala Lumpur · HQ</p>
+                <address>No 9, Jalan Dafodil 5/3,<br />42500 Telok Panglima Garang, Selangor, Malaysia</address>
+                <p><a href="mailto:sylvester@verificer.com">sylvester@verificer.com</a></p>
+                <p><a href="https://wa.me/60122828652" target="_blank" rel="noopener">+60 12 2828 652</a> <span class="muted">(WhatsApp)</span></p>
+            </div>
+            <div class="office">
+                <p class="office-city">Hong Kong</p>
+                <address>Unit 9, Flat B, 15/F, Chiap King Industrial Building,<br />114 King Fuk Street, San Po Kong, Kowloon</address>
+                <p><a href="mailto:simon@verificer.com">simon@verificer.com</a></p>
+                <p><a href="https://wa.me/85264996168" target="_blank" rel="noopener">+852 6499 6168</a> <span class="muted">(WhatsApp)</span></p>
+            </div>
+            <p class="office-hours">Monday to Friday, 9:00 AM to 6:00 PM (GMT+8). Weekends by appointment.</p>
+        </div>
+    </div>
+</section>
+
+</main>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="assets/img/logo-white.png" alt="Verificer" width="1200" height="420" loading="lazy" />
+                <p>Forward deployed AI engineering. Custom AI agents, MCP servers and private LLMs inside your own infrastructure, plus AI-assisted carbon reporting.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Forward deployed engineers</a></li>
+                    <li><a href="#services">Custom AI agents</a></li>
+                    <li><a href="#services">MCP server development</a></li>
+                    <li><a href="#on-premise">On-premise LLM deployment</a></li>
+                    <li><a href="#governance">AI governance</a></li>
+                    <li><a href="#carbon">Carbon reporting</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Industries</h4>
+                <ul>
+                    <li><a href="#industries">Manufacturing</a></li>
+                    <li><a href="#industries">Banking &amp; finance</a></li>
+                    <li><a href="#industries">Healthcare</a></li>
+                    <li><a href="#industries">Government &amp; GLCs</a></li>
+                    <li><a href="#industries">Logistics &amp; energy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#about">About Verificer</a></li>
+                    <li><a href="#engagement">How we work</a></li>
+                    <li><a href="https://demo-emas.verificer.com" target="_blank" rel="noopener">EMAS demo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span data-year>2026</span> Verificer Sdn. Bhd. Kuala Lumpur · Hong Kong</p>
+            <div class="footer-legal">
+                <a href="privacy/">Privacy Policy</a>
+                <a href="terms-of-service/">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
